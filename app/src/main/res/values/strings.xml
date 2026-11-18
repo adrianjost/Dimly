@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Dimly</string>
+    <string name="accessibility_description">Draws a dark layer over the picture to dim the screen. Controlled from the app or, if you switch it on, over your home network.</string>
+</resources>
