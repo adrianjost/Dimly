@@ -4,6 +4,8 @@ Dim the picture of your Android TV / Google TV with a smooth dark layer, from th
 
 Some TVs only get darker by lowering contrast or brightness settings, which costs picture quality. Dimly lays a black layer of adjustable opacity over everything on screen instead, video and HDR included, and leaves the TV's picture settings alone.
 
+![Dimly's dock over the home screen, dimmed to 65 %](docs/dock.jpg)
+
 ## Features
 
 - **Dock on the remote:** open Dimly from the home screen, adjust with ◀ ▶ in 5 % steps, close with BACK.
@@ -54,7 +56,10 @@ The dock closes by itself after 15 seconds without input. The key is hidden ever
 
 ## Network control
 
-Switch it on in the dock (▼, then OK). The dock then shows the address and, after **Show key**, the key. Every request needs the key, either as an `X-Key` header or as a `key` query parameter.
+Switch it on in the dock (▼, then OK). The dock then shows the address and, after **Show key**, the key.
+
+![The dock's network control section, with the key hidden](docs/dock-network.jpg)
+ Every request needs the key, either as an `X-Key` header or as a `key` query parameter.
 
 | Request | What it does |
 | --- | --- |
